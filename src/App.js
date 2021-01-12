@@ -8,12 +8,16 @@ import Welcome from './components/Welcome'
 import Hello from './components/Hello'
 import Message from './components/Messsage'
 import Counter from './components/Counter'
+import FunctionClick from './components/FunctionClick'
+import ClassClick from './components/ClassClick'
 
 function App() {
   return (
     <div className="App">
-    <Counter/>
-    {/* <Message/>
+    <ClassClick/>
+    {/* <FunctionClick/> */}
+    {/* <Counter/>
+    <Message/>
       <MyComponent/>
       <Greet/>
       <Welcome/> 
