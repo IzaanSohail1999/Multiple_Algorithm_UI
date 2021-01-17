@@ -90,7 +90,7 @@ function HomeScreen(props) {
  <div className = "container1">
             <h1 className = "Header4">Made By:</h1>
               <div>
-              <p className= "Header5">Izaan Sohail 18K-0162 <br/> Maria AliAsghar 18K-0161> </p>
+              <p className= "Header5">Izaan Sohail 18K-0162 <br/> Maria AliAsghar 18K-0161 </p>
               </div>
             </div>
 
