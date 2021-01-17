@@ -121,7 +121,7 @@ def rc ():
             f.write (json.dumps (data))
 
 def coin ():
-    ids = [168, 62]
+    ids = [162, 161]
     for i in range (10):
         index = randint (0,1)
         lenarr = randint (0, 100)

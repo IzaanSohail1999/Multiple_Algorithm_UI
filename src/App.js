@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './App.css';
+import './Components/Algorithm10.css';
 import { BrowserRouter,Switch, Route } from 'react-router-dom';
 import HomeScreen from './Components/HomeScreen'
 import Algorithm1 from './Components/Algorithm1'

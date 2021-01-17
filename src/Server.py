@@ -1,12 +1,10 @@
 import sys
 import base64
-import cv2
 import os
 import json
 import flask
 from flask import request, send_from_directory, send_file
 import json
-from bson import ObjectId
 
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True

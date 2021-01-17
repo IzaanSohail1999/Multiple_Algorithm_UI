@@ -1,5 +1,4 @@
 import React, { Component, useState } from 'react'
-import './Algorithm2.css';
 import axios from 'axios'
 import { useHistory } from 'react-router-dom';
 
@@ -26,65 +25,73 @@ function Algorithm2(props) {
 
   return (
     <div  className = "container">
-            <h1 className = "Header">
+            <h1 className = "Header2">
             Shortest Common SuperSequence
             </h1>
             <div>
-            
-            <button className = "Button1" onClick = {() => setFilename(0)}> 
+              <div>
+            <h1 className = "Header3">
+                Click on File to Run Project On
+            </h1>
+            </div>
+            <button className = "Button11" onClick = {() => setFilename(0)}> 
             File 1
             </button>
 
             </div>
             <div>
-             <button className = "Button1" onClick = {() => setFilename(1)}> 
+             <button className = "Button11" onClick = {() => setFilename(1)}> 
             File 2
             </button>
             </div>
             <div>
-             <button className = "Button1" onClick = {() => setFilename(2)}> 
+             <button className = "Button11" onClick = {() => setFilename(2)}> 
             File 3
             </button>
             </div>
             <div>
-            <button className = "Button1" onClick = {() => setFilename(3)}> 
+            <button className = "Button11" onClick = {() => setFilename(3)}> 
             File 4
             </button>
             </div>
             <div>
-             <button className = "Button1" onClick = {() => setFilename(4)}> 
+             <button className = "Button11" onClick = {() => setFilename(4)}> 
             File 5
             </button>
             </div>
             <div>
-             <button className = "Button1" onClick = {() => setFilename(5)}> 
+             <button className = "Button11" onClick = {() => setFilename(5)}> 
             File 6
             </button>
             </div>
             <div>
-            <button className = "Button1" onClick = {() => setFilename(6)}> 
+            <button className = "Button11" onClick = {() => setFilename(6)}> 
             File 7
             </button>
             </div>
             <div>
-           <button className = "Button1" onClick = {() => setFilename(7)}> 
+           <button className = "Button11" onClick = {() => setFilename(7)}> 
             File 8
             </button>
             </div>
             <div>
-            <button className = "Button1" onClick = {() => setFilename(8)}> 
+            <button className = "Button11" onClick = {() => setFilename(8)}> 
             File 9
             </button>
             </div>
             <div>
-             <button className = "ButtonEnd" onClick = {() => setFilename(9)}> 
+             <button className = "ButtonEnd1" onClick = {() => setFilename(9)}> 
             File 10
             </button>
             </div>
             
-            <div>
-            <h1>Output:</h1>
-              {answer}
+             
+            <div className = "container1">
+            <h1 className = "Header4">Output:</h1>
+              <div>
+              <p className= "Header5">{answer}</p>
+              </div>
+              
             </div>
             </div>
   );
